@@ -4,53 +4,95 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Aiden Bianco</title>
-  <meta name="description"
-    content="Student, gamer, and learner focused on technology, personal growth, and future goals.">
+  <title>Aiden Bianco | Overworld Profile</title>
+  <meta name="description" content="Aiden Bianco's Minecraft-inspired player profile and build log.">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div class="page-shell">
-    <header class="hero">
-      <p class="eyebrow">Student • Gamer • Builder</p>
-      <h1>Aiden Bianco</h1>
-      <p class="tagline">I play Rainbow Six Siege, Terraria, and The Legend of Zelda: Majora's Mask. I also enjoy
-        swimming and going on road trips.</p>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Aiden Bianco home"><span class="brand-mark"
+          aria-hidden="true">+</span><span>AB<span class="brand-dot">.</span>CRAFT</span></a>
+      <nav aria-label="Main navigation"><a class="nav-link active" href="#profile">Profile</a><a class="nav-link"
+          href="#quests">Quests</a><a class="nav-link" href="#contact">Connect</a></nav>
     </header>
 
     <main>
-      <section class="card">
-        <h2>About Me</h2>
-        <ul>
-          <li><strong>What I do:</strong> I am learning Python and growing my technology skills.</li>
-          <li><strong>What I have built:</strong> I rebuilt a 3D printer from parts without any guides, and I can change
-            out a car air filter.</li>
-        </ul>
+      <section class="hero" id="profile">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Overworld / Player profile</p>
+          <h1>Aiden<br><em>Bianco</em></h1>
+          <p class="tagline">Learning, building, and exploring one block at a time.</p>
+          <div class="hero-actions"><a class="button primary" href="#quests">View quest log <span
+                aria-hidden="true">↗</span></a><a class="button secondary" href="assignments/01-this-is-me/">About this
+              player</a></div>
+        </div>
+        <div class="player-card" aria-label="Player statistics">
+          <div class="pixel-sun" aria-hidden="true"></div>
+          <div class="avatar" aria-hidden="true"><span></span></div>
+          <div class="player-name">AIDEN_B</div>
+          <div class="level-line"><span>LEVEL 04</span><span>1,240 / 2,000 XP</span></div>
+          <div class="xp-bar"><span></span></div>
+          <div class="player-stats"><span><strong>08</strong> builds</span><span><strong>14</strong> skills</span></div>
+        </div>
       </section>
 
-      <section class="card">
-        <h2>What I'm Working On</h2>
-        <p>
-          I am learning how to use Python for the first time, and I am working toward improving my GPA from 4.1 to earn
-          a full ride to community college. I am focused on learning, staying disciplined, and building skills that will
-          help me in the future.
-        </p>
+      <section class="section-block" id="quests">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Current objectives</p>
+            <h2>Quest log</h2>
+          </div><span class="section-count">03 active</span>
+        </div>
+        <div class="quest-grid">
+          <article class="quest-card featured"><span class="quest-icon python">&lt;/&gt;</span>
+            <div>
+              <p class="quest-type">Main quest</p>
+              <h3>Learn Python</h3>
+              <p>Unlocking a new language and building the tools to make bigger ideas real.</p>
+              <div class="mini-progress"><span style="width: 42%"></span></div><small>42% complete</small>
+            </div>
+          </article>
+          <article class="quest-card"><span class="quest-icon printer">▦</span>
+            <div>
+              <p class="quest-type">Completed build</p>
+              <h3>Rebuild a 3D printer</h3>
+              <p>Parts, patience, and problem-solving. No guide required.</p><span class="complete">✓ Achievement
+                unlocked</span>
+            </div>
+          </article>
+          <article class="quest-card"><span class="quest-icon compass">✦</span>
+            <div>
+              <p class="quest-type">Side quest</p>
+              <h3>Earn the full ride</h3>
+              <p>Keeping the GPA at 4.1 and working toward community college.</p>
+              <div class="mini-progress"><span style="width: 78%"></span></div><small>78% complete</small>
+            </div>
+          </article>
+        </div>
       </section>
 
-      <section class="card">
-        <h2>Get in Touch</h2>
-        <p><a href="mailto:aidendanielb1234@gmail.com">aidendanielb1234@gmail.com</a></p>
+      <section class="world-strip">
+        <div>
+          <p class="eyebrow">Spawn point</p>
+          <h2>Built for the long game.</h2>
+        </div>
+        <p>Student. Gamer. Builder. I like figuring out how things work, then making them work better.</p>
       </section>
 
-      <section class="card">
-        <h2>My Other Page</h2>
-        <p><a href="assignments/01-this-is-me/">Open my This Is Me page</a></p>
+      <section class="contact-block" id="contact">
+        <div>
+          <p class="eyebrow">Open a chat</p>
+          <h2>Send a signal.</h2>
+        </div><a class="contact-link" href="mailto:aidendanielb1234@gmail.com">aidendanielb1234@gmail.com
+          <span>↗</span></a>
       </section>
     </main>
 
     <footer>
-      <p>Built by hand. Last updated August 2026.</p>
+      <p>© 2026 Aiden Bianco</p>
+      <p>Built by hand in the Overworld <span aria-hidden="true">◆</span></p>
     </footer>
   </div>
 </body>
